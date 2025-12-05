@@ -40,6 +40,19 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     color: #2c5f7c;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-brand-logo {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.nav-brand-text {
+    display: inline-block;
 }
 
 .nav-menu {
