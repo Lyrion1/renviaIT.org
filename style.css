@@ -514,6 +514,10 @@ body {
     .nav-brand {
         font-size: 1.25rem;
     }
+    
+    .nav-brand-logo {
+        height: 30px;
+    }
 }
 
 /* ===== Accessibility ===== */

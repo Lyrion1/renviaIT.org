@@ -19,9 +19,10 @@ You need **TWO image files**:
 - **Format:** .ico or .png file
 
 #### Logo Requirements:
-- **File name:** Name your file `logo.png` (or `logo.svg` if you have a vector version)
+- **File name:** Name your file `logo.png` OR `logo.svg` (use whichever format you have)
 - **Size:** Height should be 40-50 pixels (width will scale automatically)
-- **Format:** .png is best (with transparent background), or .svg, .jpg
+- **Format:** .png (with transparent background preferred) or .svg
+- **Note:** Upload either logo.png OR logo.svg - the website will use whichever you upload
 
 ### Step 2: Upload to GitHub
 

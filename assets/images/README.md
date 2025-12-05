@@ -13,10 +13,11 @@ This folder is where you'll place your logo and favicon images.
 - **What it is:** The small icon that appears in the browser tab next to your website title
 
 #### For the Logo (appears in the navigation bar):
-- **File name:** `logo.png` (or `logo.svg` for best quality)
+- **File name:** `logo.png` OR `logo.svg` (use whichever format you have)
 - **Recommended size:** Height of 40-50 pixels (width can be proportional)
-- **Supported formats:** .png (with transparent background preferred), .svg, .jpg
+- **Supported formats:** .png (with transparent background preferred), .svg
 - **What it is:** Your company logo that will appear in the top-left corner of every page
+- **Note:** Upload either logo.png OR logo.svg (the website will use whichever you upload)
 
 ### Step 2: Upload Your Files
 
