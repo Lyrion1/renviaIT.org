@@ -37,7 +37,8 @@
 
     <main>
         <!-- Hero Section -->
-        <section id="home" class="hero">
+        <section id="home" class="hero loading">
+            <div class="hero-loading-spinner" aria-label="Loading background image"></div>
             <div class="hero-overlay">
                 <div class="hero-content">
                     <h1>Renvia IT Foundation – Circular Technology for Global Impact</h1>
@@ -269,6 +270,7 @@
         </div>
     </footer>
 
+    <script src="hero-loader.js"></script>
     <script>
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {

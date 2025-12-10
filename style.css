@@ -77,16 +77,25 @@ body {
     margin-top: 70px;
     height: 90vh;
     min-height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                      url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1600&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1920&q=80');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
+    position: relative;
+}
+
+.hero.loading {
+    background: #2c5f7c;
+}
+
+.hero.error {
+    background: linear-gradient(135deg, #2c5f7c 0%, #1e4456 100%);
 }
 
 /* Apply fixed background on larger screens for performance */
@@ -125,6 +134,29 @@ body {
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.hero-loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 1;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.hero.loaded .hero-loading-spinner {
+    display: none;
 }
 
 /* ===== Buttons ===== */
